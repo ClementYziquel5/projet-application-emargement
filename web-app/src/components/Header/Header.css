@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    font-family: 'Inder';
+    font-size: 40px;
+    margin: 40px;
+    justify-content: space-between;
+}
+
+.logo-div{
+    justify-content: center;
+}
+.logo{
+    width:calc(170px + 1.5vw);
+    height: fit-content;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 2vw;
+}
+
+.navbar-element{
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar-element:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hamburger-div{
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.hamburger{
+    width:calc(30px + 1.5vw);
+    height: fit-content;
+}
+.hamburger:hover{
+    cursor: pointer;
+}
