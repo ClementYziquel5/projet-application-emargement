@@ -13,15 +13,14 @@
 
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.creation-groupe>*{
+.creation-groupe>*:not(.button-rectangle){
     display: flex;
     flex-direction: column;
-    margin: 0px 50px;
 }
 
 label{
@@ -29,33 +28,47 @@ label{
     margin-bottom: 5px;
 }
 
-.T1{
+.inputs{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 50%;
+    align-items: center;
 }
 
-.T1>div{
+.inputs>div{
     width: 200px;
 }
 
-.T1>*>input,.T2>*>*>input{
+.inputs>*>input,.input-eleve>*>input{
     width: 200px;
     border: 1px solid #D0D4D9;
     border-radius: 5px;
     height: 33px;
 }
 
-.T2{
+.input-eleve{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
 }
 
-input[type='submit']{
-    background: #FFFFFF;
-    border: 2px solid #FFFFFF;
-    border-radius: 6px;
-    margin-top: 20px;
-    font-size: 20px;
+.liste{
+    width: 50%;
+    display: flex;
+    height: 70%;
+}
+
+.eleve{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+img{
+    height: 100%;
+}
+
+p{
+    margin: 0 0 0 10px;
 }
