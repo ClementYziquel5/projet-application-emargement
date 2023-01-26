@@ -1,0 +1,35 @@
+.filtres{
+    display: flex;
+    gap: calc(10px + 5vw);
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: rgb(94, 94, 94);
+    border-radius: 25px;
+}
+
+.select{
+    width: 17vw;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.select:hover{
+    cursor: pointer;
+}
+
+.button-rectangle{
+    width: calc(10px + 10vw);
+    height: 5vh;
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 0.9vw;
+}
+
+.button-rectangle:hover{
+    cursor: pointer;
+}
