@@ -85,8 +85,75 @@ function Absences(){
                             Absent
                         </div>
                     </div>
+                    <div className="element-absences">
+                        <div className="nom">
+                            LE CAM Yohann
+                        </div>
+                        <div className="presence">
+                            Absent
+                        </div>
+                    </div>
+                </div>
+                <div className="groupes-absences">
+                    <div className="groupe">
+                        M1B Groupe 5
+                    </div>
+                    <div className="element-absences">
+                        <div className="nom">
+                            LE CAM Yohann
+                        </div>
+                        <div className="presence">
+                            Absent
+                        </div>
+                    </div>
+                    <div className="element-absences">
+                        <div className="nom">
+                            LE CAM Yohann
+                        </div>
+                        <div className="presence">
+                            Absent
+                        </div>
+                    </div>
+                    <div className="element-absences">
+                        <div className="nom">
+                            LE CAM Yohann
+                        </div>
+                        <div className="presence">
+                            Absent
+                        </div>
+                    </div>
+                </div>
+                <div className="groupes-absences">
+                    <div className="groupe">
+                        M1B Groupe 5
+                    </div>
+                    <div className="element-absences">
+                        <div className="nom">
+                            LE CAM Yohann
+                        </div>
+                        <div className="presence">
+                            Absent
+                        </div>
+                    </div>
+                    <div className="element-absences">
+                        <div className="nom">
+                            LE CAM Yohann
+                        </div>
+                        <div className="presence">
+                            Absent
+                        </div>
+                    </div>
+                    <div className="element-absences">
+                        <div className="nom">
+                            LE CAM Yohann
+                        </div>
+                        <div className="presence">
+                            Absent
+                        </div>
+                    </div>
                 </div>
             </div>
+            
         </div>
     );
 }

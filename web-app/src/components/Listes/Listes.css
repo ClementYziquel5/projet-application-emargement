@@ -1,8 +1,7 @@
 .listes{
     display: flex;
     flex-direction: column;
-    margin: 60px;
-    margin-top: 0;
+    margin: 0 60px;
     gap: 30px;      /*gap entre tous les élements de la liste*/
     
 }
