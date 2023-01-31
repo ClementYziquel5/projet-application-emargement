@@ -23,7 +23,7 @@
 .button-rectangle{
     width: calc(10px + 10vw);
     height: 5vh;
-    background-color: aliceblue;
+    background-color: white;
     border: 0;
     border-radius: 5px;
     text-transform: uppercase;

@@ -1,14 +1,14 @@
 import Header from './components/Header/Header.js';
 import Filtres from './components/Filtres/Filtres.js';
-// import CreationSession from './components/CreationSession/CreationSession.js';
+import Listes from './components/Listes/Listes.js';
+import Top from './components/Top/Top.js';
 import CreationSession from './components/CreationSession/CreationSession.js';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Filtres />
-      <CreationSession/>
+      <Top/>
+      <Listes/>
     </div>
   );
 }
