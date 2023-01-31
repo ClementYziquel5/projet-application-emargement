@@ -45,3 +45,16 @@
 .hamburger:hover{
     cursor: pointer;
 }
+
+.infos-hamburger{
+    background: #444349;
+    border: 3px solid #27272B;
+    border-radius: 22px;
+    position: absolute;
+    top: 50px;
+    left: 1600px;
+    z-index: -1;
+    width: 300px;
+    height: 150px;
+    display: block;
+}

@@ -5,7 +5,7 @@ function CreationSession(props){
         <div>
             <form>
                 <div className='creation-session'>
-                    <div className='T1'>
+                    <div className='matiereType'>
                         <div>
                             <label htmlFor='matiere'>Matière</label>
                             <input required name='matiere' id='matiere' type='text'></input>
@@ -32,7 +32,7 @@ function CreationSession(props){
                         <input name='intervenant' id='intervenant' type='text'></input>
                     </div>
 
-                    <div className='T2'>
+                    <div className='DateHeure'>
                         <div>
                             <label htmlFor='date'>Date</label>
                             <input required name='date' id='date' type='date' ></input>

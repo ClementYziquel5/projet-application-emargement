@@ -59,6 +59,10 @@ label{
     height: 70%;
 }
 
+.liste>h3{
+    margin-top: 0;
+}
+
 .eleve{
     display: flex;
     flex-direction: row;
@@ -71,4 +75,12 @@ img{
 
 p{
     margin: 0 0 0 10px;
+}
+
+.eleves{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-y: scroll;
+    width: 80%;
 }

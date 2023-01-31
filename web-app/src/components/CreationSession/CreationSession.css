@@ -24,12 +24,12 @@
     margin: 0px 50px;
 }
 
-.T1>*{
+.matiereType>*{
     display: flex;
     flex-direction: column;
 }
 
-.T1>*>input{
+.matiereType>*>input{
     height: 33px;
 
 }
@@ -52,11 +52,11 @@ input{
     height: 33px;
 }
 
-.T2>div{
+.DateHeure>div{
     width: 150px;
 }
 
-.T2{
+.DateHeure{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -65,7 +65,7 @@ input{
     align-content: space-between;
 }
 
-.T2>*>input{
+.DateHeure>*>input{
     width: 120px;
 }
 

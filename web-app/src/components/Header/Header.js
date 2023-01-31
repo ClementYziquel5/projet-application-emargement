@@ -14,6 +14,10 @@ function Header(){
             <div className="hamburger-div">
                 <img src="hamburger-blanc.png" className="hamburger" alt='hamburger'></img>
             </div>
+
+            <div className='infos-hamburger'>
+                
+            </div>
             
         </div>
        
