@@ -2,11 +2,18 @@
     font-family: 'Inder';
 }
 
-.creation-session{
+.creation{   /* pour la div class="creation" dans App.js */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(20px + 0.5vw);
+}
+
+.creationSession{
     background-color: #3D3939;
     border-radius: 10px;
     width: 700px;
-    height: 500px;
+    height: fit-content;
     color: white;
     font-size: 25px;
     padding: 30px 0;
@@ -16,32 +23,28 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.creation-session>*{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 50px;
-}
-
-.matiereType>*{
-    display: flex;
-    flex-direction: column;
-}
-
-.matiereType>*>input{
-    height: 33px;
-
+    gap: 10px;
 }
 
 label{
+    font-size: 25px;
     margin-bottom: 10px;
 }
 
-input{
-    width: 220px;
-    border: 1px solid #D0D4D9;
-    border-radius: 5px;
+.inputGroupe{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0px 50px;
+}
+
+.matiere, .type{
+    display: flex;
+    flex-direction: column;
+}
+
+#inputMatiere, #inputType{
+    height: 33px;
 }
 
 #groupe,#intervenant,#salle{
@@ -52,11 +55,18 @@ input{
     height: 33px;
 }
 
-.DateHeure>div{
+input, textarea{
+    width: 220px;
+    border: 1px solid #D0D4D9;
+    border-radius: 5px;
+    line-height: 1.5em;
+}
+
+.dateHeure>div{
     width: 150px;
 }
 
-.DateHeure{
+.dateHeure{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -65,14 +75,19 @@ input{
     align-content: space-between;
 }
 
-.DateHeure>*>input{
+.dateHeure>*>input{
     width: 120px;
 }
 
 input[type=submit]{
-    background: #FFFFFF;
-    border: 2px solid #FFFFFF;
-    border-radius: 6px;
-    margin-top: 20px;
-    font-size: 25px;
+    width: calc(10px + 10vw);
+    height: 5vh;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 0.9vw;
+    margin-top: 15px;
+    cursor: pointer;
 }
