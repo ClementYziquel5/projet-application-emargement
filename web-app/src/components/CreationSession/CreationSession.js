@@ -4,35 +4,35 @@ function CreationSession(props){
     return (
         <div>
             <form>
-                <div className='creation-session'>
-                    <div className='matiereType'>
-                        <div>
+                <div className='creationSession'>
+                    <div className='inputGroupe'>
+                        <div className='matiere'>
                             <label htmlFor='matiere'>Matière</label>
-                            <input required name='matiere' id='matiere' type='text'></input>
+                            <input required name='matiere' id='inputMatiere' type='text'></input>
                         </div>
 
-                        <div>
+                        <div className="type">
                             <label htmlFor='type'>Type</label>
-                            <input required name='type' id='type' type='text'></input>
+                            <input required name='type' id='inputType' type='text'></input>
                         </div>
                     </div>
 
-                    <div>
+                    <div className="inputGroupe">
                         <label htmlFor='salle'>Salle(s)</label>
-                        <input name='salle' id='salle' type='text'></input>
+                        <textarea name='salle' id='salle' type='text'></textarea>
                     </div>
 
-                    <div>
+                    <div className="inputGroupe">
                         <label htmlFor='groupe'>Groupe(s)</label>
-                        <input required name='groupe' id='groupe' type='text'></input>
+                        <textarea required name='groupe' id='groupe' type='text'></textarea>
                     </div>
 
-                    <div>
+                    <div className="inputGroupe">
                         <label htmlFor='intervenant'>Intervenant(s)</label>
-                        <input name='intervenant' id='intervenant' type='text'></input>
+                        <textarea name='intervenant' id='intervenant' type='text'></textarea>
                     </div>
 
-                    <div className='DateHeure'>
+                    <div className='dateHeure'>
                         <div>
                             <label htmlFor='date'>Date</label>
                             <input required name='date' id='date' type='date' ></input>
@@ -49,7 +49,7 @@ function CreationSession(props){
                         </div>
                     </div>
                     
-                    <input type="submit" value="Créer"/>
+                    <input className="inputBoutonRectangle" type="submit" value="Créer"/>
                 </div>
                 
                 
