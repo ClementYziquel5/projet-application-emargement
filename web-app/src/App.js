@@ -31,7 +31,7 @@ const Groupes = () => (
   </div>
 );
 const Creation = () => (
-  <div>
+  <div class="creation">
     <CreationSession/>
     <CreationGroupe/>
   </div>
