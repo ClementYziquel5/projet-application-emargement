@@ -1,7 +1,7 @@
 .filtres{
     display: flex;
     gap: calc(10px + 5vw);
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0 80px 30px 80px;
     padding: 20px;
     background-color: rgb(94, 94, 94);
@@ -13,6 +13,7 @@
     width: 17vw;
     border-radius: 7px;
     padding: 7px;
+    height: 5vh;
 }
 
 .select:hover{
