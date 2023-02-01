@@ -2,6 +2,13 @@
     font-family: 'Inder';
 }
 
+.creation{   /* pour la div class="creation" dans App.js */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(20px + 0.5vw);
+}
+
 .creation-session{
     background-color: #3D3939;
     border-radius: 10px;
