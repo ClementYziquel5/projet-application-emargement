@@ -32,7 +32,7 @@ function Filtres(){
 
                 <input clasName="select" required name='date' id='date-filtres' type='date' ></input>
 
-                <button class="button-rectangle" type="button">Afficher
+                <button className="button-rectangle" type="button">Afficher
                 </button>
                 
 
