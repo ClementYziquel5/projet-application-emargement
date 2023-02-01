@@ -48,7 +48,7 @@ function Listes(){
                     <div class="heure-debut">
                         09h00
                     </div>
-                    <div class="heure-fin">
+                    <div className="heure-fin">
                         10h30
                     </div>
                 </div>
