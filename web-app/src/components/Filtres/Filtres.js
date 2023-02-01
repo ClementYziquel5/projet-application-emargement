@@ -30,7 +30,7 @@ function Filtres(){
                     <option value="option-chi">Chinois</option>
                 </select>
 
-                <button class="button-rectangle" type="button">Afficher
+                <button className="button-rectangle" type="button">Afficher
                 </button>
                 
 

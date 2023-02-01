@@ -34,20 +34,20 @@ function Listes(){
                     </div>
                 </div>
                 <div className="salle">
-                    <div class="la-salle">
+                    <div className="la-salle">
                         S136C
                     </div>
                 </div>
                 <div className="date">
-                    <div class="la-date">
+                    <div className="la-date">
                         16/01/23
                     </div>
                 </div>
                 <div className="heure">
-                    <div class="heure-debut">
+                    <div className="heure-debut">
                         09h00
                     </div>
-                    <div class="heure-fin">
+                    <div className="heure-fin">
                         10h30
                     </div>
                 </div>
@@ -83,20 +83,20 @@ function Listes(){
                     </div>
                 </div>
                 <div className="salle">
-                    <div class="la-salle">
+                    <div className="la-salle">
                         S136C
                     </div>
                 </div>
                 <div className="date">
-                    <div class="la-date">
+                    <div className="la-date">
                         16/01/23
                     </div>
                 </div>
                 <div className="heure">
-                    <div class="heure-debut">
+                    <div className="heure-debut">
                         09h00
                     </div>
-                    <div class="heure-fin">
+                    <div className="heure-fin">
                         10h30
                     </div>
                 </div>
