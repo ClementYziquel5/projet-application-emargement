@@ -4,6 +4,9 @@
     font-size: 35px;
     padding: 2vh 5vh 3vh 5vh;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgb(156, 156, 156);
 }
 
 .logo-div{
@@ -24,11 +27,12 @@
     margin-right: 600px;
 }
 
-.navbar-element{
+.navbar>a{
     text-decoration: none;
     list-style-type: none;
+    color: white;
 }
-.navbar-element:hover{
+.navbar>a:hover{
     text-decoration: underline;
     cursor: pointer;
 }
@@ -59,6 +63,10 @@
     width: 400px;
     height: 150px;
     display: block;
+}
+
+.infos-hamburger>a>p{
+    margin-top: 25px;
 }
 
 #pseudo{
