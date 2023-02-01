@@ -35,12 +35,12 @@ function Listes(){
                     </div>
                 </div>
                 <div className="salle">
-                    <div class="la-salle">
+                    <div className="la-salle">
                         S136C
                     </div>
                 </div>
                 <div className="date">
-                    <div class="la-date">
+                    <div className="la-date">
                         16/01/23
                     </div>
                 </div>
