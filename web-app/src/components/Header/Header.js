@@ -22,7 +22,7 @@ function Header(){
 
             <div>
                 <div className="hamburger-div">
-                    <img src="hamburger-blanc.png" className="hamburger" alt='hamburger'  onClick={handleClick}></img>             
+                    <img src="hamburger-white.png" className="hamburger" alt='hamburger'  onClick={handleClick}></img>             
                 </div>
             
                 <div className='infos-hamburger' style={{ display: showInfos ? 'block' : 'none' }}>
