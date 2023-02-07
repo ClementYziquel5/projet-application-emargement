@@ -55,32 +55,35 @@ label{
 
 .liste{
     width: 50%;
-    display: flex;
     height: 70%;
 }
 
 .liste>h3{
-    margin-top: 0;
+    margin: 0;
+}
+
+.eleves{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow-y: scroll;
+    width: 80%;
 }
 
 .eleve{
     display: flex;
     flex-direction: row;
+    align-items: center;
     font-size: 15px;
+    margin: 0;
 }
 
-img{
-    height: 100%;
+.eleve>img{
+    margin-right: 4px;
 }
 
 p{
-    margin: 0 0 0 10px;
-}
-
-.eleves{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    overflow-y: scroll;
-    width: 80%;
+    margin: 0;
+    overflow-x: unset;
 }
