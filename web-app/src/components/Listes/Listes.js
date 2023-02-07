@@ -7,8 +7,8 @@ function Listes(){
             {groupes.map((groupe,index) =>
             <div className="infos-liste">
                 <div className="bouton">
-                    <img src="bouton-edit.png" className="bouton-edit" alt='Bouton edit'></img>
-                    <img src="bouton-poubelle.png" className="bouton-poubelle" alt='Bouton edit'></img>
+                    <img src="button-edit.png" className="bouton-edit" alt='Bouton edit'></img>
+                    <img src="button-delete.png" className="bouton-poubelle" alt='Bouton edit'></img>
                 </div>
                 <div className="cours">
                     <div className="matiere">
