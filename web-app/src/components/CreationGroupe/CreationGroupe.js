@@ -7,6 +7,7 @@ function CreationGroupe(props){
     const [groupe, setGroupe] = useState();
     const [nom, setNom] = useState();
     const [prenom, setPrenom] = useState();
+    const [nomPrenom, setNomPrenom] = useState();
     const [etudiants, setEtudiants] = useState([]);
 
     function handleGroupe(e) {
@@ -15,16 +16,16 @@ function CreationGroupe(props){
         setGroupe(newGroupeCap);
     }
 
-    function handleNom(e) {
-        setNom(e.target.value.toUpperCase());
-    }
+    // function handleNom(e) {
+    //     setNom(e.target.value.toUpperCase());
+    // }
 
-    function handlePrenom(e) {
-        const newPrenom = e.target.value;
-        const newPrenomCap = newPrenom.charAt(0).toUpperCase() + newPrenom.substr(1);
-        setPrenom(newPrenomCap);
-    }
-
+    // function handlePrenom(e) {
+    //     const newPrenom = e.target.value;
+    //     const newPrenomCap = newPrenom.charAt(0).toUpperCase() + newPrenom.substr(1);
+    //     setPrenom(newPrenomCap);
+    // }
+    
     function handleAddEtudiant() {
         if (nom && prenom) {
             setEtudiants([...etudiants, {nom, prenom}]);
@@ -32,7 +33,16 @@ function CreationGroupe(props){
             setPrenom('');
         }
     }
-    
+
+    function handleNomPrenom(e) {
+        const fullName = e.target.value;
+        const parts = fullName.split(" ");
+        const nom = parts[0].toUpperCase();
+        const prenom = parts[1].charAt(0).toUpperCase() + parts[1].substr(1);
+        setNom(nom);
+        setPrenom(prenom);
+    }
+
 
     return (
         <div>
@@ -45,13 +55,9 @@ function CreationGroupe(props){
                     </div>
 
                     <div className='input-eleve'>
-                        <div className='Prénom'>
-                            <label htmlFor='nom'>Nom</label>
-                            <input name='nom' id='nom' type='text' value={nom} onChange={handleNom}/>
-                        </div>
                         <div>
-                            <label htmlFor='prenom'>Prenom</label>
-                            <input name='prenom' id='prenom' type='text' value={prenom} onChange={handlePrenom}/>
+                            <label htmlFor='nom-prenom'>NOM Prénom</label>
+                            <input name='nom-prenom' id='nom-prenom' type='text' value={nomPrenom} onChange={handleNomPrenom}/>
                         </div>
 
                         <button class="button-rectangle" type="button" onClick={handleAddEtudiant}>AJOUTER ➤</button>
