@@ -24,9 +24,9 @@ class GroupeRepository extends ServiceEntityRepository
     // Récupère tous les groupes et les renvoie sous forme de tableau
     public function findAll(): array
     {
-        $em = $this->createQueryBuilder('gr');
-
-        return $em->getQuery()->getArrayResult();
+        return $this->createQueryBuilder('gr')
+                ->getQuery()
+                ->getArrayResult();
     }
 
     public function save(Groupe $entity, bool $flush = false): void

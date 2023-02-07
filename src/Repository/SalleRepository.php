@@ -21,6 +21,14 @@ class SalleRepository extends ServiceEntityRepository
         parent::__construct($registry, Salle::class);
     }
 
+    // Récupère toutes les salles et les renvoie sous forme de tableau
+    public function findAll(): array
+    {
+        return $this->createQueryBuilder('s')
+            ->getQuery()
+            ->getArrayResult();
+    }
+
     public function save(Salle $entity, bool $flush = false): void
     {
         $this->getEntityManager()->persist($entity);
