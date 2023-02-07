@@ -21,6 +21,14 @@ class TypeRepository extends ServiceEntityRepository
         parent::__construct($registry, Type::class);
     }
 
+    // Récupère tous les types et les renvoie sous forme de tableau
+    public function findAll(): array
+    {
+        return $this->createQueryBuilder('ty')
+                ->getQuery()
+                ->getArrayResult();
+    }
+
     public function save(Type $entity, bool $flush = false): void
     {
         $this->getEntityManager()->persist($entity);

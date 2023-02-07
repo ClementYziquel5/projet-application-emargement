@@ -21,6 +21,14 @@ class StaffRepository extends ServiceEntityRepository
         parent::__construct($registry, Staff::class);
     }
 
+    // Récupère tout le staff et les renvoie sous forme de tableau
+    public function findAll(): array
+    {
+        return $this->createQueryBuilder('st')
+                ->getQuery()
+                ->getArrayResult();
+    }
+
     public function save(Staff $entity, bool $flush = false): void
     {
         $this->getEntityManager()->persist($entity);

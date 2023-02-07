@@ -21,10 +21,12 @@ class PromoRepository extends ServiceEntityRepository
         parent::__construct($registry, Promo::class);
     }
 
-    // Récupère tous les groupes et les renvoie sous forme de tableau
-    public function getAllPromos(): array
+    // Récupère toutes les promos et les renvoie sous forme de tableau
+    public function findAll(): array
     {
-        return $this->findAll();
+        return $this->createQueryBuilder('pr')
+                ->getQuery()
+                ->getArrayResult();
     }
 
     public function save(Promo $entity, bool $flush = false): void
